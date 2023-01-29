@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:wght@600&display=swap');
 
 /* General Styles */
 
@@ -70,7 +70,7 @@ nav a:hover {
 
 .home-title {
     color: black;
-    font-family: 'Gravitas One', 'Times New Roman', Georgia, serif;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
