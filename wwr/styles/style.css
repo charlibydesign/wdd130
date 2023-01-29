@@ -1,29 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:wght@600&display=swap');
+
+/* General Styles */
+
 body {
     background-color: white;
+    font-size: 22px;
+    font-family: 'Open Sans', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    background-color: rgba(58,166,213, .7);
+h2 {
+    margin: 0;
 }
 
-.home-title {
+h4 {
     color: black;
 }
+
+.logo, .icon {
+    width: 80px;
+}
+
+.book, .join {
+    background-color: #3AA6D5;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover, .join:hover {
+    background-color: #1D6DB2;
+    color: white;
+}
+
+/* Content Area Styles */
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
+/* Header Area Styles */
+
+header {
+    background-color: rgba(58,166,213,.7);
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
 nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
     background-color: #1D6DB2;
     color: white;
+}
+
+/* Hero Area Styles */
+
+.home-title {
+    color: black;
+    font-family: 'Gravitas One', 'Times New Roman', Georgia, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 #hero-img {
@@ -38,41 +87,66 @@ nav a:hover {
     text-align: center;
 }
 
+/* Main Styles */
+
 main section {
     text-align: center;
 }
+
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #1D6DB2;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+/* Background Div */
 
 #background {
     height: 725px;
     background-color: #3AA6D5;
 }
 
-.book, .join {
-    background-color: #3AA6D5;
-    color: black;
-    text-decoration: none;
+.mountains {
+    margin-top: 50px;
 }
 
-.book:hover, .join:hover {
-    background-color: #1D6DB2;
-    color: white;
-}
+/* Message Area */
 
 .msg {
     background-color:#1D6DB2;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 100px;
 }
 
 .msg h2 {
     color: white;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
+
+/* Footer Styles */
 
 footer {
     background-color: rgba(58,166,213, .7);
     color: black;
+    padding: 25px 50px;
+    margin-top: 50px;
 }
 
 footer p {
@@ -90,10 +164,7 @@ footer p a:hover {
     text-decoration: underline;
 }
 
-h4 {
-    color: black;
+footer .social img {
+    padding-top: 15px;
 }
 
-.logo, .icon {
-    width: 80px;
-}
